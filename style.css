@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #848484;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    color: #ffffff;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+#css-zen-garden {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#zen-intro header {
+    padding: 1rem 0;
+}
+
+#zen-summary,
+#zen-preamble,
+#zen-explanation,
+#zen-participation,
+#zen-benefits,
+#zen-requirements {
+    background-color: #4C8577;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#zen-supporting {
+    margin-bottom: 1.5rem;
+}
+
+.intro {
+    background-color: #eee;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.summary p,
+.preamble p {
+    line-height: 1.7;
+}
+
+.supporting > div {
+    margin-bottom: 1.5rem;
+}
+
+.sidebar {
+    background-color: #29518e;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.select {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.design-selection nav ul {
+    padding-left: 1rem;
+}
+
+.design-selection nav li {
+    margin-bottom: 0.6rem;
+}
+
+.design-name {
+    font-weight: bold;
+}
+
+.designer-name {
+    font-style: italic;
+    color: #ffffff;
+}
+
+.archives {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.design-archives nav ul {
+    padding-left: 1rem;
+}
+
+.design-archives nav li {
+    margin-bottom: 0.6rem;
+}
+
+.resources {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.zen-resources ul {
+    padding-left: 1rem;
+}
+
+.zen-resources li {
+    margin-bottom: 0.6rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #d73a86;
+    color: #fff;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+.intro header h1 {
+    color: #5b5b5b;
+}
+
+.sidebar .wrapper .design-selection h3 {
+    color: #ffffff;
+}
+
+.design-selection > h3 {
+    margin-top: 0;
+}
+
+
+h2 + .preamble {
+    margin-top: 1.5rem;
+}
